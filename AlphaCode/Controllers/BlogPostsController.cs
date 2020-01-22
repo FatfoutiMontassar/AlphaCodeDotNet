@@ -32,7 +32,6 @@ namespace AlphaCode.Controllers
         }
 
         // GET: api/BlogPosts/5
-        // Testing the changes
         [HttpGet("{id}")]
         public async Task<IActionResult> GetBlogPost([FromRoute] Guid id)
         {

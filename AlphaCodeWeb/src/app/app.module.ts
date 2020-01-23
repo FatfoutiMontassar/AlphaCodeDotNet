@@ -18,6 +18,8 @@ import { AppRoutingModule } from './app-routing.module';
     BlogPostAddEditComponent
   ],
   imports: [
+    HttpClientModule,
+    ReactiveFormsModule,
     BrowserModule,
     AppRoutingModule
   ],
